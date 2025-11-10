@@ -1,3 +1,6 @@
+#ifndef Btree_H
+#define Btree_H
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -43,3 +46,6 @@ public:
 
     void remove(int k);
 };
+#include "btree.cpp" //add
+#include "btree_delete.cpp" 
+#endif
